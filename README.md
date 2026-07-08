@@ -45,6 +45,8 @@
 |   [World Cup 2](<./Forensics/World%20Cup%202/README.md>)   |   itzdenki   | forensics |    210 |
 | [Follow The Layer](./Forensics/Follow-The-Layer/README.md) | Baby Ovaltine | forensics |     96 |
 |           [Echoes](./Forensics/Echoes/README.md)           | Baby Ovaltine | forensics |     26 |
+|     [NotPet(y)a](./Forensics/NotPetya)     | [Ellie](https://github.com/aiko-chan-ai) | forensics |     26 |
+|   [One Stroke](./Forensics/One%20Stroke)   | [Ellie](https://github.com/aiko-chan-ai) | forensics |      9 |
 
 # Osint
 

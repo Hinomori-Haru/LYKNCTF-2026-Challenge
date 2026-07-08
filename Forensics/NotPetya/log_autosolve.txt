@@ -1,0 +1,31 @@
+file size = 104858112 (0x6400200)
+VHD footer @ 0x6400000 magic: "conectix"
+backup GPT @ 0x63FFE00 magic: "EFI PART"
+LBA1 (prim GPT hdr) @0x200 all-zero: true
+[P1] name(base64) = "TFlLTkNURns3Zjg3ZjExNy0="
+
+[P1] firstLBA=128 lastLBA=204671 name@0x438
+[P1] Frag 1 = "LYKNCTF{7f87f117-"
+
+[P2] partStart=0x10000 backupVBR=0x63EFE00
+[P2] main VBR @0x10000 = "Ooops, your volume has been trashed by t"  
+[P2] backupVBR bps=512 spc=8 mftLCN=0x214A volSerial=504D550C97550C3C
+[P2] backupVBR+0x80 @0x63EFE80 (XOR serial) = 367f2e6ff6603e11647f6d39ea1e83ec18681a00b4488a160e008bf4161fcd13
+[P2] Frag 2 @0x63EFE80 (XOR serial, marker f2{}) = "ca52-4285"
+
+[P3] mftByte=0x215A000
+[P3] KEY = A558D6CF73F2ABA9007595818EBD0C727DB7B2C941520360FFE1B724621BB89C
+[P3] recAbs=0x216C800
+[P3] Frag 3 (marker f3{}) = "-844a-ca0"
+
+[P4] data-runs: 59 fragment(s), realSize=5021588 byte, runlist=5021696 byte -> flag_recovered.zip
+[P4] zip password (= key Phase 3) = A558D6CF73F2ABA9007595818EBD0C727DB7B2C941520360FFE1B724621BB89C
+[P4] Frag 4 (part4.txt) = "a5699a9cd}"
+
+[restore] GPT hdr CRC32=0x5D8518D9 | VBR <- backupVBR | record <- decrypted
+[restore] -> recovered.vhd (104858112 byte)
+
+==================================================
+FLAG = LYKNCTF{7f87f117-ca52-4285-844a-ca0a5699a9cd}
+==================================================
+[VERIFY] PASS
