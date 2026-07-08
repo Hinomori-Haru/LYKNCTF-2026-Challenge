@@ -1,0 +1,4 @@
+When look at the parameters , We actually see that the P params is a
+pseudo mersenne prime and a = P-3 .So this curve is not randomly
+generated , it's must be gen by a algo. The first hint is about the "paper" name that include the algo to gen it and the second hint is microsoft in japanese so this curve might be gen by microsoft. After searching you might see some paper. At the third hint that params is from a curve actually gen by microsoft using that algo and when you search you actually see 2 webs. The last hint is about IETF ; draft and #000000 which is black. So now you actually know that https://datatracker.ietf.org/doc/html/draft-black-numscurves-02 is the right link
+FLag: LYKNCTF{draft-black-numscurves-02}
