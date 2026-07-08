@@ -1,0 +1,21 @@
+Ooops, your volume has been trashed by the NotPeta Echo.
+
+If you see this text, then your disk structures are no longer accessible, 
+because they have been locked. Perhaps you are busy looking for a way to 
+carve your files, but don't waste your time. Nobody can recover your data
+without the correct parameters.
+
+FRIENDLY WARNING: This is a Capture-The-Flag exercise.
+Nothing on your real machine was harmed -- only this pathetic disk image.
+Now enjoy the forensics...
+
+Recovery requires this machine's own installation key. 
+The key never left the disk: it is intimately bount to this volume.
+
+Your personal installation key:
+{SERIAL}
+
+Crypto wallet address:
++0x80??�??�?s�m�thi�g_wr�ng
+
+Follow the scattered echoes and recover what was lost.

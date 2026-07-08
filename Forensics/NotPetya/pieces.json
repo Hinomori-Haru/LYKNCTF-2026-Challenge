@@ -1,0 +1,12 @@
+{
+  "flag": "LYKNCTF{7f87f117-ca52-4285-844a-ca0a5699a9cd}",
+  "uuid": "7f87f117-ca52-4285-844a-ca0a5699a9cd",
+  "p1": "LYKNCTF{7f87f117-",
+  "p2": "ca52-4285",
+  "p3": "-844a-ca0",
+  "p4": "a5699a9cd}",
+  "p1enc": "TFlLTkNURns3Zjg3ZjExNy0=",
+  "p2m": "f2{ca52-4285}",
+  "p3m": "f3{-844a-ca0}",
+  "note": "p1enc=base64(p1) into GPT name | p2m=f2{p2} XOR serial @backupVBR+0x80 | p3m=f3{p3} slack record AES | p4=part4.txt in flag.zip"
+}
