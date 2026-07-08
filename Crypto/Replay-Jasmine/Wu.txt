@@ -1,0 +1,2 @@
+LTC PoW is scrypt. And if you look carefully these matrix is a lattice. You can look at : https://lqdoj.edu.vn/problem/windows98suck for more information about this lattice. So there are two choices is you can use mitm to solve this or use LLL to reduce it. Then you just need to solve and merge two secret then use scrypt to hash about 4000 and got the key. Use the aux.py define the shiinapige256 algo and decrypt the ciphertext.
+Flag: LYKNCTF{Connect_The_World}
