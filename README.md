@@ -39,9 +39,10 @@
 
 |                Challenge                |  Author  | Category | Solves |
 | :--------------------------------------: | :------: | :------: | -----: |
-|      [Hash & Dash](<./Crypto/Hash%20&%20Dash>)      | itzdenki | crypto  |      - |
-| [Noisy Broadcast](<./Crypto/Noisy%20Broadcast>) | itzdenki | crypto  |      - |
-|         [Postbox](./Crypto/Postbox)         | itzdenki | crypto  |      - |
+|      [Hash & Dash](<./Crypto/Hash%20&%20Dash>)      | itzdenki | crypto  |      127 |
+| [Noisy Broadcast](<./Crypto/Noisy%20Broadcast>) | itzdenki | crypto  |      223 |
+|         [Postbox](./Crypto/Postbox)         | itzdenki | crypto  |      85 |
+|  [Replay-Jasmine](./Crypto/Replay-Jasmine)  | [Yohuaculense](https://github.com/Hinomori-Haru) | crypto  |      32 |
 
 # Forensics
 
